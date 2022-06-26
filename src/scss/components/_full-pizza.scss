@@ -1,0 +1,17 @@
+.full-pizza {
+  display: flex;
+  justify-content: space-between;
+
+  &-wrapper{
+    display: flex;
+    flex-direction: row;
+
+    &_right {
+      width: 40vw;
+      flex-direction: column;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+}
